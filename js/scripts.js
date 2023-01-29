@@ -1,5 +1,4 @@
 // User Interface Logic
 window.onload = function(){
-  const element = EventTarget.querySelector("h1");
-  element.remove();
 };
+document.querySelector("h1").innertext = "Webpage Recreation Practice";
