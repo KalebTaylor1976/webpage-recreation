@@ -2,13 +2,11 @@
 window.onload = function(){
   const h1 = document.querySelector("h1");
   h1.remove();
- 
+  const newH1 = document.createElement("h1");
+  newH1.append("Webpage Recreation Practice");
+
+
+
  };
- // create html element
- const html = document.createElement("html");
- html.setAttribute("lang", "en-US");
- document.appendChild(html);
- 
- // create head element
- const head = document.createElement("head");
- html.appendChild(head);
+
+
